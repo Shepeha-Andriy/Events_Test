@@ -8,7 +8,7 @@ import {
 import { authService } from '@/services/auth.service'
 
 const options: CreateAxiosDefaults = {
-	baseURL: 'http://localhost:8080/api',
+	baseURL: 'https://evets-server.onrender.com/api',
 	headers: {
 		'Content-Type': 'application/json'
 	},
